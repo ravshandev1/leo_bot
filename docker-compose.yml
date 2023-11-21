@@ -1,0 +1,7 @@
+version: '3.11'
+services:
+  aiogram:
+    build: .
+    restart: always
+    container_name: bot_aiogram
+    command: python app.py
